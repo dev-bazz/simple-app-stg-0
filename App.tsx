@@ -12,6 +12,7 @@ export default function App () {
   const handlePress = async ( url: string ) => {
     await Linking.openURL( url );
   };
+  
   const btnUIw = `${ ( Number( widthScaleFactor ) * 200 ) }px`;
   return (
     <ScrollView >
