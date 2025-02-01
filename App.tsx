@@ -22,7 +22,7 @@ export default function App () {
           <Text>HNG 12 Internship</Text>
           <Text>React Native Dev </Text>
         </Header>
-        <Btn bg="#54428E" widthT={ btnUIw } onPress={ () => handlePress( "https://github.com" ) }>
+        <Btn bg="#54428E" widthT={ btnUIw } onPress={ () => handlePress( "https://github.com/dev-bazz/simple-app-stg-0" ) }>
           <Text style={ [ { color: 'white' } ] }>GitHub repository</Text>
         </Btn>
         <Btn bg="#2274A5" widthT={ btnUIw } onPress={ () => handlePress( "https://hng.tech/hire/react-native-developers" ) }>
